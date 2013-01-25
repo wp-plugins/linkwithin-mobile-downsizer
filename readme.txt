@@ -55,6 +55,10 @@ Actual support should be referenced with the creators of LinkWithin.
 
 == Changelog ==
 
+= 0.0.3 =
+
+Updated original readme file. 
+
 = 0.0.2 =
 
 First release that did what it was supposed to.

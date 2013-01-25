@@ -3,7 +3,7 @@
 Plugin Name: LinkWithin Mobile Downsizer
 Plugin URI: www.not-literally.com
 Description: This plugin created specifically for Not Literally but works well enough to share!
-Version: 0.0.2
+Version: 0.0.3
 Author: Keith Lytle
 Author URI: 
 License: Free Use.
