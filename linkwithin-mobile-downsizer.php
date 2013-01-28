@@ -2,7 +2,7 @@
 /*
 Plugin Name: LinkWithin Mobile Downsizer
 Plugin URI: www.not-literally.com
-Description: This plugin created specifically for Not Literally but works well enough to share!
+Description: This plugin created specifically for Not-Literally.com but works well enough to share!
 Version: 0.0.4
 Author: Keith Lytle
 Author URI: 
