@@ -13,8 +13,14 @@ LinkWithin Mobile Downsizer - renumbering links to fit on mobile devices.
 
 == Description ==
 
-This plugin inserts a new stylesheet to shrink LinkWithin down to 2 links instead of the preset number for small display screens. If the device window is large enough to show 3 (or more) links it will. The inserted code dynamically chooses between 2 and whatever size was chosen originally from the LinkWithin plugin page. I make no warranties about its effectiveness but it seems to work out ok with the WPtouch and Jetpack plugins installed.
-
+This plugin inserts a new stylesheet to shrink LinkWithin down to the available screen 
+area instead of the preset number for small display screens. If the device window is 
+large enough to show 3 (or more) links it will. The inserted code dynamically chooses 
+between whatever will fit and whatever size was chosen originally from the LinkWithin 
+plugin page. This will also effect the Title Text above the links for word wrapping and 
+also move the link for LinkWithin to a visible area. I make no warranties about its 
+effectiveness but it seems to work out ok with the WPtouch and Jetpack plugins 
+installed and their respective Mobile Themes.
 
 
 == Installation ==
@@ -41,19 +47,35 @@ the website was mobile compatible. They let me test things out while I fix thing
 
 = Will I maintain/update this plugin? =
 
-I plan to make it 100% compatible with more than just 3 links.
+I plan to make it 100% compatible with more than just 3 links. Hopefully I have done that 
+now. Also I am now thinking of writing a full add-on pack for LinkWithin for any ideas 
+that come to me. Like, images in the Title Text area! 
 
 = Where should we go if we need for more support? =
 
-Check out http://www.Not-Literally.com. They have a bunch of fun stuff there to take your mind off your troubles. Then when your done, umm buy a t-shirt.
+Check out http://www.Not-Literally.com. They have a bunch of fun stuff there to take your 
+mind off your troubles. Then when your done, umm buy a t-shirt.
 
-Actual support should be referenced with the creators of LinkWithin.
+Actual support should be referenced with the creators of LinkWithin 
+(http://www.linkwithin.com/support). 
+If you need help with my plug-in, hit my support page here on Wordpress.org 
+(http://wordpress.org/support/plugin/linkwithin-mobile-downsizer)
 
 == Screenshots ==
 
 1. N/A
 
 == Changelog ==
+
+= 0.0.4 = 
+
+Updated readme again for new features. 
+Added support for the screen to be of any size and get the largest size it can from the 
+links. i.e. if the original request from LinkWithin was for 5 links but the device used 
+to load the page only has room for 4 links then this plugin will resize LinkWithin to 
+show 4 links. Or 3 or 2 or 1. This will also effect the Title Text above the links and 
+word wrap it and also move the link for LinkWithin to a visible area. 
+Let's keep the link to continue to give them some love!
 
 = 0.0.3 =
 
@@ -65,6 +87,7 @@ First release that did what it was supposed to.
 
 == Upgrade Notice ==
 
-= 0.0.1 = 
+= 0.0.5 = 
 
-This didn't work the first time.
+Looking into adding a dashboard control panel for adding custom text and images to the
+title text area. Also maybe changing the background color and/or link styles.
