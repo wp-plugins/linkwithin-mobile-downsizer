@@ -47,14 +47,15 @@ the website was mobile compatible. They let me test things out while I fix thing
 
 = Will I maintain/update this plugin? =
 
-I plan to make it 100% compatible with more than just 3 links. Hopefully I have done that 
-now. Also I am now thinking of writing a full add-on pack for LinkWithin for any ideas 
-that come to me. Like, images in the Title Text area! 
+It looks like I will. If anyone brings an issue to my attention, it will get resolved 
+quickly as this is still my first plug-in and I want to make it a good one. Hopefully 
+I have done that now. Also I am now thinking of writing a full add-on pack for LinkWithin 
+for any ideas that come to me. Like, images in the Title Text area! 
 
 = Where should we go if we need for more support? =
 
 Check out http://www.Not-Literally.com. They have a bunch of fun stuff there to take your 
-mind off your troubles. Then when your done, umm buy a t-shirt.
+mind off your troubles. Then when your done buy a t-shirt.
 
 Actual support should be referenced with the creators of LinkWithin 
 (http://www.linkwithin.com/support). 
@@ -66,6 +67,14 @@ If you need help with my plug-in, hit my support page here on Wordpress.org
 1. N/A
 
 == Changelog ==
+
+= 0.0.5 =
+
+There was a bug that prevented the owner of a site to import pictures into the "Set Featured 
+Image" in certain(or all) themes. This has been resolved by delaying the loading of this
+plugin until after all items in the admin panel have loaded first. Also the script will
+detect if running in the wp-admin panel and not load the script as to not bog down the 
+panel.
 
 = 0.0.4 = 
 
@@ -87,7 +96,7 @@ First release that did what it was supposed to.
 
 == Upgrade Notice ==
 
-= 0.0.5 = 
+= 0.0.6 = 
 
 Looking into adding a dashboard control panel for adding custom text and images to the
 title text area. Also maybe changing the background color and/or link styles.
